@@ -172,9 +172,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -243,5 +243,27 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+body {
+  background: #F5D9D5;
+  font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+  color: #EA1C2C;
 }
 
